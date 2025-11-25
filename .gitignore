@@ -1,0 +1,85 @@
+# -------------------------------------
+# Node.js / JavaScript / TypeScript
+# -------------------------------------
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.*.local
+*.env
+
+# Build output
+dist/
+build/
+out/
+.next/
+.vercel/
+.vite/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.cache
+.cache/
+.cache-loader/
+
+# Logs
+logs/
+*.log
+*.csv
+*.out
+*.pid
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+jest-cache/
+jest-html-reporters-*
+.nyc_output/
+
+# PM2
+pids/
+pms/
+logs/
+
+# Docker
+docker-data/
+*.tar
+
+# Misc
+*.gz
+*.zip
+
+# Local secrets / keys
+*.pem
+*.key
+*.crt
