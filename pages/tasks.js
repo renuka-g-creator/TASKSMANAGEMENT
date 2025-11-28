@@ -17,7 +17,7 @@ export default function TasksPage() {
 
   return (
     <div style={{ padding: '2rem' }}>
-      <h1>Tasks Management</h1>
+      <h1>Tasks Management System</h1>
       <TaskForm onTaskAdded={fetchTasks} />
       {loading ? <p>Loading...</p> : <TaskList tasks={tasks} refreshTasks={fetchTasks} />}
     </div>
